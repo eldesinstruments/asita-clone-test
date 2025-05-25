@@ -30,13 +30,8 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-    sizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840], // richiesto da Next.js 15
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840], // richiesto anche se non usato
-    minimumCacheTTL: 60,
-    formats: ["image/webp"],
-    dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 };
 
 module.exports = nextConfig;
+
