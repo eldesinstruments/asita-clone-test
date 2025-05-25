@@ -8,6 +8,8 @@ const nextConfig = {
       "ext.same-assets.com",
       "ugc.same-assets.com",
     ],
+            deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 48, 64, 96],
     remotePatterns: [
       {
         protocol: "https",
@@ -30,8 +32,6 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-        deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96],
   },
 };
 
