@@ -1,5 +1,5 @@
 {
-  "name": "asita-website-test",
+  "name": "asita-clone-test",
   "version": "1.0.0",
   "description": "Complete clone of ASITA.com website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion",
   "private": true,
