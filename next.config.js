@@ -2,6 +2,7 @@
 const nextConfig = {
   images: {
     unoptimized: true,
+    sizes: [], // <- aggiunto obbligatoriamente in Next.js 15
   },
 };
 
